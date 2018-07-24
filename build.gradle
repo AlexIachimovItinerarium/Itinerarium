@@ -45,6 +45,8 @@ ext {
     daggerVersion = '2.7'
     firebaseCoreVersion = '10.2.0'
     firebaseUiVersion = '1.2.0'
+    circleImageViewVersion = '2.2.0'
+    materialEditTextVersion = '2.1.4'
 
     jUnitVersion = '4.12'
     testRunnerVersion = '1.0.2'
