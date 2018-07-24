@@ -5,63 +5,67 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 27
-    defaultConfig {
-        applicationId "com.example.itinerarium"
-        minSdkVersion 19
-        targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        multiDexEnabled true
+  compileSdkVersion 27
+  defaultConfig {
+    applicationId "com.example.itinerarium"
+    minSdkVersion 19
+    targetSdkVersion 27
+    versionCode 1
+    versionName "1.0"
+    testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    multiDexEnabled true
+  }
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
     }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
+  }
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+  implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    // Kotlin
-    implementation"org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+  // Kotlin
+  implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
 
-    // Android Dependencies
-    implementation "com.android.support:appcompat-v7:" + rootProject.ext.supportLibraryVersion
-    implementation "com.android.support:design:" + rootProject.ext.supportLibraryVersion
-    implementation "com.android.support:recyclerview-v7:" + rootProject.ext.supportLibraryVersion
-    implementation "com.android.support:cardview-v7:" + rootProject.ext.supportLibraryVersion
+  // Android Dependencies
+  implementation "com.android.support:appcompat-v7:" + rootProject.ext.supportLibraryVersion
+  implementation "com.android.support:design:" + rootProject.ext.supportLibraryVersion
+  implementation "com.android.support:recyclerview-v7:" + rootProject.ext.supportLibraryVersion
+  implementation "com.android.support:cardview-v7:" + rootProject.ext.supportLibraryVersion
 
-    // UI
-    implementation "com.android.support.constraint:constraint-layout:" + rootProject.ext.constraintLayoutVersion
-    implementation "com.squareup.picasso:picasso:" + rootProject.ext.picassoVersion
+  // UI
+  implementation "com.android.support.constraint:constraint-layout:" + rootProject.ext.constraintLayoutVersion
+  implementation "com.squareup.picasso:picasso:" + rootProject.ext.picassoVersion
+  implementation "de.hdodenhof:circleimageview:" + rootProject.ext.circleImageViewVersion
+  implementation "com.rengwuxian.materialedittext:library:" + rootProject.ext.materialEditTextVersion
 
-    // ButterKnife
-    implementation "com.jakewharton:butterknife:" + rootProject.ext.butterknifeVersion
 
-    // Dagger
-    implementation "com.google.dagger:dagger:" + rootProject.ext.daggerVersion
-    implementation "com.jakewharton:butterknife:" + rootProject.ext.butterknifeVersion
-    annotationProcessor "com.jakewharton:butterknife-compiler:" + rootProject.ext.butterknifeVersion
+  // ButterKnife
+  implementation "com.jakewharton:butterknife:" + rootProject.ext.butterknifeVersion
 
-    // RxJava
-    implementation "com.squareup.retrofit2:adapter-rxjava:" + rootProject.ext.rxJavaAdapterVersion
-    implementation "io.reactivex:rxjava:" + rootProject.ext.rxJavaVersion
-    implementation "io.reactivex:rxandroid:" + rootProject.ext.rxAndroidVersion
+  // Dagger
+  implementation "com.google.dagger:dagger:" + rootProject.ext.daggerVersion
+  implementation "com.jakewharton:butterknife:" + rootProject.ext.butterknifeVersion
+  implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+  annotationProcessor "com.jakewharton:butterknife-compiler:" + rootProject.ext.butterknifeVersion
 
-    // Firebase
-    implementation ("com.google.firebase:firebase-core:" + rootProject.ext.firebaseCoreVersion) {
-        exclude group: 'com.android.support', module: 'appcompat'
-    }
-    implementation ("com.firebaseui:firebase-ui:" + rootProject.ext.firebaseUiVersion) {
-        exclude group: 'com.android.support', module: 'appcompat'
-    }
+  // RxJava
+  implementation "com.squareup.retrofit2:adapter-rxjava:" + rootProject.ext.rxJavaAdapterVersion
+  implementation "io.reactivex:rxjava:" + rootProject.ext.rxJavaVersion
+  implementation "io.reactivex:rxandroid:" + rootProject.ext.rxAndroidVersion
 
-    // Testing
-    testImplementation "junit:junit:" + rootProject.ext.jUnitVersion
-    androidTestImplementation "com.android.support.test:runner:" + rootProject.ext.testRunnerVersion
-    androidTestImplementation "com.android.support.test.espresso:espresso-core:" + rootProject.ext.espressoVersion
+  // Firebase
+  implementation("com.google.firebase:firebase-core:" + rootProject.ext.firebaseCoreVersion) {
+    exclude group: 'com.android.support', module: 'appcompat'
+  }
+  implementation("com.firebaseui:firebase-ui:" + rootProject.ext.firebaseUiVersion) {
+    exclude group: 'com.android.support', module: 'appcompat'
+  }
+
+  // Testing
+  testImplementation "junit:junit:" + rootProject.ext.jUnitVersion
+  androidTestImplementation "com.android.support.test:runner:" + rootProject.ext.testRunnerVersion
+  androidTestImplementation "com.android.support.test.espresso:espresso-core:" + rootProject.ext.espressoVersion
 }

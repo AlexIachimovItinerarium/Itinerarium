@@ -1,3 +1,9 @@
 <resources>
   <string name="app_name">Itinerarium</string>
+  <string name="user_e_mail_hint">User E-mail...</string>
+  <string name="user_password_hint">User Password...</string>
+  <string name="sign_in">Sign in</string>
+  <string name="sign_up_question">Don\'t have an account?</string>
+  <string name="sign_up">Sign up</string>
+  <string name="remember_me_message">Remember me</string>
 </resources>
