@@ -8,7 +8,7 @@ android {
   compileSdkVersion 27
   defaultConfig {
     applicationId "com.example.itinerarium"
-    minSdkVersion 19
+    minSdkVersion 21
     targetSdkVersion 27
     versionCode 1
     versionName "1.0"
@@ -40,6 +40,7 @@ dependencies {
   implementation "com.squareup.picasso:picasso:" + rootProject.ext.picassoVersion
   implementation "de.hdodenhof:circleimageview:" + rootProject.ext.circleImageViewVersion
   implementation "com.rengwuxian.materialedittext:library:" + rootProject.ext.materialEditTextVersion
+  implementation "com.android.support:cardview-v7:"
 
 
   // ButterKnife
@@ -55,6 +56,10 @@ dependencies {
   implementation "com.squareup.retrofit2:adapter-rxjava:" + rootProject.ext.rxJavaAdapterVersion
   implementation "io.reactivex:rxjava:" + rootProject.ext.rxJavaVersion
   implementation "io.reactivex:rxandroid:" + rootProject.ext.rxAndroidVersion
+
+  // Joda
+  implementation "org.joda:joda-convert:" + rootProject.ext.jodaTimeVersion
+  implementation "com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:" + rootProject.ext.jodaTimeSerialiseVersion
 
   // Firebase
   implementation("com.google.firebase:firebase-core:" + rootProject.ext.firebaseCoreVersion) {

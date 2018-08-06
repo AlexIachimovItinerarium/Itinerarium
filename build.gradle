@@ -47,6 +47,9 @@ ext {
     firebaseUiVersion = '1.2.0'
     circleImageViewVersion = '2.2.0'
     materialEditTextVersion = '2.1.4'
+    cardViewVersion = '23.3.+'
+    jodaTimeVersion = '1.7'
+    jodaTimeSerialiseVersion = '1.1.0'
 
     jUnitVersion = '4.12'
     testRunnerVersion = '1.0.2'
