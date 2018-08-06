@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <array name="countries">
+    <item><item>World\'s country</item></item>
+    <item>Moldova</item>
+    <item>Russia</item>
+    <item>United States</item>
+  </array>
+
+  <array name="cities">
+    <item>World\'s city</item>
+    <item>Chisinau</item>
+    <item>Orhei</item>
+    <item>Ungheni</item>
+  </array>
+</resources>

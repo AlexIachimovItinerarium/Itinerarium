@@ -7,4 +7,10 @@
   <color name="color_background_splash_screen_image">#FFFBFB</color>
   <color name="color_white">#FFFFFF</color>
   <color name="color_black">#000000</color>
+  <color name="color_azur">#F1F5F8</color>
+
+
+  <color name="error_red">#fd0024</color>
+
+
 </resources>
