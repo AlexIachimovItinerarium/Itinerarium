@@ -4,6 +4,11 @@
   <dimen name="common_logo_image_width">150dp</dimen>
   <dimen name="common_logo_image_height">150dp</dimen>
 
+  <!-- Material Design Guideline Dimensions -->
+  <dimen name="margin_left_right">16dp</dimen>
+  <dimen name="button_height">67dp</dimen>
+  <dimen name="toolbar_icon_size">24dp</dimen>
+
  <!-- MARGINS-->
   <dimen name="margin_1dp">1dp</dimen>
   <dimen name="margin_4dp">4dp</dimen>
@@ -16,9 +21,59 @@
 
   <!--TEXT SIZE-->
   <dimen name="text_size_20sp">20sp</dimen>
+  <dimen name="text_size_18sp">18sp</dimen>
+  <dimen name="text_size_13sp">13sp</dimen>
   <dimen name="text_size_15sp">15sp</dimen>
+  <dimen name="text_sub_heading">17sp</dimen>
+
+
+  <dimen name="corner_radius">3dp</dimen>
+  <dimen name="margin_terms_title">33dp</dimen>
+  <dimen name="trip_space">2dp</dimen>
+  <dimen name="small_trip_space">1dp</dimen>
+  <dimen name="padding_small">16dp</dimen>
+  <dimen name="small">8dp</dimen>
+  <dimen name="button_height_terms">58dp</dimen>
+
+  <!-- Padding -->
+  <dimen name="padding_tinier">3dp</dimen>
+  <dimen name="padding_tiny">5dp</dimen>
+  <dimen name="padding_tiny_little_bigger">6dp</dimen>
+  <dimen name="padding_tiny_bigger">8dp</dimen>
+  <dimen name="padding_small_bigger">11dp</dimen>
+  <dimen name="padding_small_bit_bigger">12dp</dimen>
+  <dimen name="padding_medium_smaller">14dp</dimen>
+  <dimen name="padding_medium">16dp</dimen>
+  <dimen name="padding_large">20dp</dimen>
+  <dimen name="padding_larger">22dp</dimen>
+  <dimen name="padding_more_large">24dp</dimen>
+  <dimen name="padding_even_more_large">27dp</dimen>
+  <dimen name="padding_xlarge_smaller">28dp</dimen>
+  <dimen name="padding_xlarge">30dp</dimen>
+  <dimen name="padding_xxlarge">40dp</dimen>
+  <dimen name="padding_around_content_area">24dp</dimen>
+  <dimen name="margin_empty_trip">80dp</dimen>
+
+  <!-- Margin -->
+  <dimen name="margin_7dp">7dp</dimen>
+  <dimen name="margin_5dp">5dp</dimen>
+  <dimen name="margin_10dp">10dp</dimen>
+  <dimen name="margin_15dp">15dp</dimen>
+  <dimen name="margin_20dp">20dp</dimen>
+
+  <!-- Button -->
+  <dimen name="button_corner_radius">1dp</dimen>
+  <dimen name="button_corner_radius_4_dp">4dp</dimen>
+  <dimen name="button_height_landing_screen">56dp</dimen>
+
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <dimen name="activity_horizontal_margin">16dp</dimen>
+  <dimen name="activity_vertical_margin">16dp</dimen>
+
   <dimen name="text_size_10sp">10sp</dimen>
   <dimen name="text_size_5sp">1sp</dimen>
+
+
 
 
 </resources>

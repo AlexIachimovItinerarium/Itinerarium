@@ -1,4 +1,6 @@
 <resources>
+
+  <!-- # SIGN IN SIGN UP -->
   <string name="app_name">Itinerarium</string>
   <string name="user_e_mail_hint">User E-mail...</string>
   <string name="user_password_hint">User Password...</string>
@@ -23,4 +25,18 @@
   <string name="mandatory_fields">All fields marked with * are mandatory.</string>
 
   <string name="remember_me_message">Remember me</string>
+
+  <!-- # TERMS AND CONDITIONS -->
+  <string name="terms_button_accept_title">Accept</string>
+  <string name="terms_button_decline_title">Decline</string>
+  <string name="terms_page_title">Scroll to accept user terms</string>
+  <string name="terms_digitalServices">Digital Services User Terms</string>
+  <string name="terms_privacyStatement">View our Privacy Statement</string>
+  <string name="terms_privacyStatement_button">Privacy Statement</string>
+  <string name="terms_decline_alertMessageTitle">You must accept user agreements before continuing.</string>
+  <string name="terms_decline_alertMessage">You must accept the Digital Services User Terms and Privacy Statement in order to use this application.</string>
+
+  <string name="landscreen_logIn">Please log in.</string>
+  <string name="validation_alreadyHaveAnAccount">Already have an Itinerarium account?</string>
+
 </resources>
