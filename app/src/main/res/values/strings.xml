@@ -1,42 +1,42 @@
 <resources>
 
-  <!-- # SIGN IN SIGN UP -->
-  <string name="app_name">Itinerarium</string>
-  <string name="user_e_mail_hint">User E-mail...</string>
-  <string name="user_password_hint">User Password...</string>
-  <string name="sign_in">Sign in</string>
-  <string name="sign_up_question">Don\'t have an account?</string>
-  <string name="sign_up">Sign Up</string>
-  <string name="username_hint">*Username...</string>
-  <string name="email_hint">*E-mail...</string>
-  <string name="password_hint">*Password...</string>
-  <string name="first_name_hint">*Firstname...</string>
-  <string name="last_name_hint">*Lastname...</string>
-  <string name="country_region_hint">Country/Region...</string>
-  <string name="social_platforms_sign_up">Sign Up with Social Platforms</string>
-  <string name="account_info_sign_up">Account Information</string>
-  <string name="personal_info_sign_up">Personal Information</string>
-  <string name="before_sign_up_message">Before Sign Up please read</string>
-  <string name="terms_and_conditions">Terms &amp; Conditions and Privacy Policy</string>
+    <!-- # SIGN IN SIGN UP -->
+    <string name="app_name">Itinerarium</string>
+    <string name="user_e_mail_hint">User E-mail...</string>
+    <string name="user_password_hint">User Password...</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up_question">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username_hint">*Username...</string>
+    <string name="email_hint">*E-mail...</string>
+    <string name="password_hint">*Password...</string>
+    <string name="first_name_hint">*Firstname...</string>
+    <string name="last_name_hint">*Lastname...</string>
+    <string name="country_region_hint">Country/Region...</string>
+    <string name="social_platforms_sign_up">Sign Up with Social Platforms</string>
+    <string name="account_info_sign_up">Account Information</string>
+    <string name="personal_info_sign_up">Personal Information</string>
+    <string name="before_sign_up_message">Before Sign Up please read</string>
+    <string name="terms_and_conditions">Terms &amp; Conditions and Privacy Policy</string>
 
 
-  <string name="date_of_birth">Date of Birth</string>
-  <string name="choose_date_of_birth">Choose Date</string>
-  <string name="mandatory_fields">All fields marked with * are mandatory.</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="choose_date_of_birth">Choose Date</string>
+    <string name="mandatory_fields">All fields marked with * are mandatory.</string>
 
-  <string name="remember_me_message">Remember me</string>
+    <string name="remember_me_message">Remember me</string>
 
-  <!-- # TERMS AND CONDITIONS -->
-  <string name="terms_button_accept_title">Accept</string>
-  <string name="terms_button_decline_title">Decline</string>
-  <string name="terms_page_title">Scroll to accept user terms</string>
-  <string name="terms_digitalServices">Digital Services User Terms</string>
-  <string name="terms_privacyStatement">View our Privacy Statement</string>
-  <string name="terms_privacyStatement_button">Privacy Statement</string>
-  <string name="terms_decline_alertMessageTitle">You must accept user agreements before continuing.</string>
-  <string name="terms_decline_alertMessage">You must accept the Digital Services User Terms and Privacy Statement in order to use this application.</string>
+    <!-- # TERMS AND CONDITIONS -->
+    <string name="terms_button_accept_title">Accept</string>
+    <string name="terms_button_decline_title">Decline</string>
+    <string name="terms_page_title">Scroll to accept user terms</string>
+    <string name="terms_digitalServices">Digital Services User Terms</string>
+    <string name="terms_privacyStatement">View our Privacy Statement</string>
+    <string name="terms_privacyStatement_button">Privacy Statement</string>
+    <string name="terms_decline_alertMessageTitle">You must accept user agreements before continuing.</string>
+    <string name="terms_decline_alertMessage">You must accept the Digital Services User Terms and Privacy Statement in order to use this application.</string>
 
-  <string name="landscreen_logIn">Please log in.</string>
-  <string name="validation_alreadyHaveAnAccount">Already have an Itinerarium account?</string>
+    <string name="landscreen_logIn">Please log in.</string>
+    <string name="validation_alreadyHaveAnAccount">Already have an Itinerarium account?</string>
 
 </resources>
