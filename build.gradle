@@ -50,6 +50,7 @@ ext {
     cardViewVersion = '23.3.+'
     jodaTimeVersion = '1.7'
     jodaTimeSerialiseVersion = '1.1.0'
+    lottieLibraryVersion = '2.5.5'
 
     jUnitVersion = '4.12'
     testRunnerVersion = '1.0.2'
