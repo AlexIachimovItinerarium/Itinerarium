@@ -15,8 +15,8 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run(){
                 try{
-                    sleep(2*1000);
-                    Intent loginIntent = new Intent(getApplicationContext(), LogInActivity.class);
+                    sleep(3*1000);
+                    Intent loginIntent = new Intent(getApplicationContext(), SignUpActivity2.class);
                     startActivity(loginIntent);
                 }catch (Exception e){
                 }

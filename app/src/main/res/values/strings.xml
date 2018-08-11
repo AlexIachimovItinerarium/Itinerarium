@@ -39,4 +39,11 @@
     <string name="landscreen_logIn">Please log in.</string>
     <string name="validation_alreadyHaveAnAccount">Already have an Itinerarium account?</string>
 
+    <!-- # Home Activity -->
+    <string name="home_bottom_navigation">Home</string>
+    <string name="home_bottom_notofications">Notifications</string>
+    <string name="home_bottom_search">Search</string>
+    <string name="home_bottom_favorites">Favorites</string>
+    <string name="home_bottom_menu">Menu</string>
+
 </resources>
