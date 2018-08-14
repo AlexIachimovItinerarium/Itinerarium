@@ -1,0 +1,90 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+  <android.support.design.widget.AppBarLayout
+          android:id="@+id/appbar_lay"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="#ffffff"
+          android:fitsSystemWindows="true"
+          android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentScrim="@color/colorPrimaryDark"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|enterAlways"
+            app:titleEnabled="false">
+
+
+      <com.google.android.gms.maps.MapView
+              android:id="@+id/mapView"
+              android:layout_width="match_parent"
+              android:layout_height="300dp"
+              android:clickable="true"
+              app:layout_collapseMode="parallax"
+              android:focusable="true" />
+
+      <android.support.v7.widget.Toolbar
+              android:id="@+id/main_activity_toolbar"
+              android:layout_height="?android:attr/actionBarSize"
+              android:layout_width="match_parent"
+              android:background="@color/colorPrimary"
+              app:layout_collapseMode="pin"
+              android:layout_gravity="bottom"
+              app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4">
+
+          <TextView
+                  android:id="@+id/textViewDisableMapTracking"
+                  android:text="@string/disable_location_tracking"
+                  android:textColor="@color/color_white"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1" />
+
+          <Switch
+                  android:id="@+id/switchButtonDisableEnableTracking"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1" />
+
+          <TextView
+                  android:id="@+id/textViewDisableMap"
+                  android:text="@string/disable_map"
+                  android:textColor="@color/color_white"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1" />
+
+          <Switch
+                  android:id="@+id/switchButtonDisableEnableMap"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+      </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.CollapsingToolbarLayout>
+  </android.support.design.widget.AppBarLayout>
+
+  <android.support.v4.widget.NestedScrollView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <!--    Other Content must be here-->
+
+  </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

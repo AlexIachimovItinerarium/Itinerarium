@@ -1,21 +1,21 @@
-package com.example.itinerarium;
+package com.example.itinerarium.activities;
 
 import android.app.DatePickerDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Adapter;
 import android.widget.ArrayAdapter;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
 
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Locale;
 
-public class SignUpActivity2 extends AppCompatActivity {
+import com.example.itinerarium.R;
+
+public class SignUpActivity extends AppCompatActivity {
 
     Calendar mCalendar = Calendar.getInstance();
     EditText mBirthdayEditText;
@@ -23,7 +23,7 @@ public class SignUpActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_up2);
+        setContentView(R.layout.activity_sign_up);
         setCountrySpiner();
         setCitySoiner();
         mBirthdayEditText = findViewById(R.id.editTextBirthday);
@@ -43,7 +43,7 @@ public class SignUpActivity2 extends AppCompatActivity {
     mBirthdayEditText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                new DatePickerDialog(SignUpActivity2.this, date, mCalendar
+                new DatePickerDialog(SignUpActivity.this, date, mCalendar
                         .get(Calendar.YEAR), mCalendar.get(Calendar.MONTH),
                         mCalendar.get(Calendar.DAY_OF_MONTH)).show();
             }
