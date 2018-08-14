@@ -37,6 +37,7 @@ task clean(type: Delete) {
 ext {
     supportLibraryVersion = '27.1.1'
     constraintLayoutVersion = '1.0.2'
+    constraintSupportVersion = '1.1.2'
     butterknifeVersion = '8.4.0'
     picassoVersion = '2.5.2'
     rxJavaAdapterVersion = '2.0.2'
@@ -44,6 +45,7 @@ ext {
     rxAndroidVersion = '1.1.0'
     daggerVersion = '2.7'
     firebaseCoreVersion = '10.2.0'
+    googleMapsVersion = '10.2.0'
     firebaseUiVersion = '1.2.0'
     circleImageViewVersion = '2.2.0'
     materialEditTextVersion = '2.1.4'
@@ -51,6 +53,7 @@ ext {
     jodaTimeVersion = '1.7'
     jodaTimeSerialiseVersion = '1.1.0'
     lottieLibraryVersion = '2.5.5'
+    expandableLayoutVersion = '2.9.2'
 
     jUnitVersion = '4.12'
     testRunnerVersion = '1.0.2'
