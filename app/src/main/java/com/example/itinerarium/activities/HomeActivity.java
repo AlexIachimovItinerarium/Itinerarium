@@ -21,7 +21,7 @@ public class HomeActivity extends AppCompatActivity {
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
       switch (item.getItemId()) {
-        case R.id.nav_maps:
+        case R.id.nav_map:
           screenNavigation.replaceFragment(activeFragment, mapFragment);
           activeFragment = mapFragment;
           break;

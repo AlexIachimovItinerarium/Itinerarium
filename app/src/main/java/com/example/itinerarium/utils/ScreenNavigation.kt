@@ -7,6 +7,9 @@ import android.content.Context
 import android.content.Intent
 import android.content.Intent.FLAG_ACTIVITY_NEW_TASK
 import android.support.v7.app.AppCompatActivity
+import android.view.View
+import android.view.animation.AlphaAnimation
+import java.time.Duration
 
 class ScreenNavigation(activity: Activity) {
 
@@ -30,4 +33,5 @@ class ScreenNavigation(activity: Activity) {
     intent.setFlags(FLAG_ACTIVITY_NEW_TASK)
     context.startActivity(Intent(context, activity))
   }
+
 }

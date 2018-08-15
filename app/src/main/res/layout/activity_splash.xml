@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -17,4 +17,18 @@
     app:lottie_loop="true"
     app:lottie_autoPlay="true"/>
 
-</FrameLayout>
+
+    <TextView
+        android:id="@+id/appNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="96dp"
+        android:fontFamily="@font/arapey"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name_splash_activity"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size_40sp" />
+
+</RelativeLayout>
