@@ -2,6 +2,7 @@
 
   <!-- # SIGN IN SIGN UP -->
   <string name="app_name">Itinerarium</string>
+  <string name="app_name_splash_activity">ITINERARIUM</string>
   <string name="user_e_mail_hint">User E-mail...</string>
   <string name="user_password_hint">User Password...</string>
   <string name="sign_in">Sign in</string>
